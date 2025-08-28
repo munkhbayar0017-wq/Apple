@@ -231,3 +231,15 @@
   padding-top: 36px;
   justify-content: space-between;
 }
+/* Link 4 */
+.lin4 {
+  height: 500px;
+  background: url(/Figure\\(3\).png) lightgray 0px 0px / 100% 100% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 12px solid #fff;
+  justify-content: center;
+  display: flex;
+}
