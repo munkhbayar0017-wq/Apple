@@ -57,11 +57,12 @@
 /* Link */
 .link {
   height: 500px;
-  background: url(/Figure\\(3\).png) lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(/link1.jpg) lightgray 0px 0px / 100% 100% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
   border-bottom: 12px solid #fff;
   justify-content: center;
   display: flex;
@@ -120,14 +121,13 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-
   padding-bottom: 36px;
   padding-top: 350px;
 }
 /* Link 2 */
 .link2 {
   height: 500px;
-  background: url(/Figure\\(2\).png) lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(/link2.jpg) lightgray 0px 0px / 100% 100% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -135,6 +135,7 @@
   border-bottom: 12px solid #fff;
   justify-content: center;
   display: flex;
+  background-position: center;
 }
 .text6 {
   color: #000;
@@ -166,8 +167,7 @@
 /* Link 3 */
 .link3 {
   height: 500px;
-  background: url(/421da7b86f74db639b131d85fb645c3a6cbc8dbc.jpg) lightgray 0px
-    0px / 100% 100% no-repeat;
+  background: url(/link3.jpg) lightgray 0px 0px / 100% 100% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -175,6 +175,7 @@
   border-bottom: 12px solid #fff;
   justify-content: center;
   display: flex;
+  background-position: center;
 }
 .text8 {
   color: #000;
@@ -230,4 +231,132 @@
   padding-bottom: 36px;
   padding-top: 36px;
   justify-content: space-between;
+}
+/* Link 4 */
+.link4 {
+  height: 500px;
+  background: url(/link4.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 12px solid #fff;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+}
+.frame8 {
+  display: flex;
+  width: 241px;
+  height: 147px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 299px;
+}
+/* Link 5 */
+.link5 {
+  height: 500px;
+  background: url(/link5.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 12px solid #fff;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+}
+.text10 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: normal;
+}
+.frame9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+.text11 {
+  color: #000;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+/* Link 6 */
+.link6 {
+  height: 500px;
+  background: url(/link6.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 12px solid #fff;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+}
+/* Link 7 */
+.link7 {
+  height: 500px;
+  background: url(/link7.png) lightgray 0px 0px / 100% 100% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 12px solid #fff;
+  justify-content: center;
+  display: flex;
+}
+/* Link 8 */
+.link8 {
+  height: 500px;
+  background: url(/link8.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 12px solid #fff;
+  justify-content: center;
+  display: flex;
+}
+/* Link 9 */
+.link9 {
+  height: 500px;
+  background: url(/link9.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 12px solid #fff;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+}
+.frame10 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+/* Link 10 */
+.link10 {
+  display: flex;
+  gap: 16px;
+}
+.zuragnuud {
+  width: 274px;
+  height: 495px;
+  flex-shrink: 0;
+  opacity: 0.99;
+  background: url(<path-to-image>) lightgray 0% 0% / 100px 100px repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
