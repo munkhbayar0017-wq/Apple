@@ -18,8 +18,8 @@
 }
 .icon2 {
   display: flex;
-  width: 18px;
-  height: 18px;
+  width: 48px;
+  height: 48px;
   padding: 15px;
   justify-content: center;
   align-items: center;
@@ -132,6 +132,11 @@
     padding-top: 58px;
   }
 }
+@media (min-width: 1920px) {
+  .link1 {
+    background: url(/link1web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+}
 /* Link 2 */
 .link2 {
   height: 500px;
@@ -184,6 +189,12 @@
     gap: 12px;
   }
 }
+@media (min-width: 1920px) {
+  .link2 {
+    background: url(/link2web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+}
+
 /* Link 3 */
 .link3 {
   height: 500px;
@@ -306,6 +317,11 @@
   line-height: normal;
   letter-spacing: 2px;
 }
+@media (min-width: 1290px) {
+  .link5 {
+    background: url(/link5web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+}
 /* Link 6 */
 .link6 {
   height: 500px;
@@ -319,6 +335,12 @@
   display: flex;
   background-position: center;
 }
+@media (min-width: 1290px) {
+  .link6 {
+    background: url(/link6web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+}
+
 /* Link 7 */
 .link7 {
   height: 500px;
@@ -363,7 +385,11 @@
   align-items: center;
   gap: 4px;
 }
-
+@media (min-width: 1290px) {
+  .link9 {
+    background: url(/link9web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+}
 /* Link 10 */
 .link10 {
   display: flex;
@@ -438,6 +464,24 @@ img {
 .dotfather {
   z-index: 1;
 }
+.link10lap {
+  display: none;
+}
+@media (min-width: 768px) {
+  .link10 {
+    display: none;
+  }
+  .link10lap {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow: scroll;
+    gap: 16px;
+    background-color: #ffffff;
+  }
+}
+
 /* Footer */
 .footer {
   height: 216px;
@@ -523,4 +567,28 @@ img {
   .text {
     font-size: 11px;
   }
+}
+.footerlap {
+  display: none;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: none;
+  }
+  .footerlap {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow: scroll;
+    gap: 16px;
+    background-color: #ffffff;
+    padding-top: 12px white;
+    align-items: center;
+  }
+}
+.frame13 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
