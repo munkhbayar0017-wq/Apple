@@ -176,6 +176,9 @@
   gap: 16px;
   padding-top: 36px;
 }
+.position1 {
+  padding-top: 300px;
+}
 @media (min-width: 768px) {
   .link2 {
     background: url(/link2.lap.jpg) lightgray 0px 0px / 100% 100% no-repeat;
@@ -193,8 +196,15 @@
   .link2 {
     background: url(/link2web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
   }
-}
 
+  .n2 {
+    /* display: none; */
+    padding-bottom: 373px;
+  }
+  /* .n1 {
+    display: none;
+  } */
+}
 /* Link 3 */
 .link3 {
   height: 500px;
@@ -275,16 +285,77 @@
   justify-content: center;
   display: flex;
   background-position: center;
+  align-items: center;
+  flex-direction: column;
 }
 .frame8 {
-  display: flex;
   width: 241px;
   height: 147px;
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  padding-top: 299px;
 }
+@media (max-width: 768px) {
+  .frame8-up {
+    display: flex;
+  }
+  .frame8-down {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .frame8-up {
+    display: flex;
+  }
+  .frame8-down {
+    display: none;
+  }
+}
+@media (min-width: 1920px) {
+  .frame8-up {
+    display: none;
+  }
+  .frame8-down {
+    display: flex;
+  }
+  .link3 {
+    background: url(/giftmagic.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+  .img1 {
+    display: none;
+  }
+  .text9 {
+    display: none;
+  }
+  .frame6 {
+    display: none;
+  }
+  .link7 {
+    background: url(/link3.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+}
+.frame8none {
+  display: none;
+}
+.frame8flex {
+  display: flex;
+  /* padding-top: 299px; */
+}
+@media (min-width: 1920px) {
+  .link4 {
+    background: url(/link4web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+  .frame8none2 {
+    display: none;
+  }
+}
+.position2 {
+  padding-top: 180px;
+}
+.position4 {
+  padding-top: 130px;
+}
+
 /* Link 5 */
 .link5 {
   height: 500px;
@@ -354,6 +425,9 @@
   justify-content: center;
   display: flex;
 }
+.position3 {
+  padding-top: 296px;
+}
 /* Link 8 */
 .link8 {
   height: 500px;
@@ -364,8 +438,25 @@
   background-size: cover;
   background-position: center;
   border-bottom: 12px solid #fff;
-  justify-content: center;
+
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.n2 {
+  padding-bottom: 373px;
+}
+/* .n1 {
+  padding-bottom: 2px;
+} */
+@media (min-width: 1920px) {
+  .link8 {
+    background: url(/link8web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+  .link7 {
+    background: url(/link7web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
 }
 /* Link 9 */
 .link9 {
@@ -570,6 +661,7 @@ img {
 }
 .footerlap {
   display: none;
+  border-top: 12px solid #fff;
 }
 @media (min-width: 768px) {
   .footer {
