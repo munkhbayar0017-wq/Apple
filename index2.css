@@ -147,7 +147,7 @@
 }
 /* Section3 */
 .frame8 {
-  background: url(/let1.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(./let1.jpg) lightgray 0px 0px / 100% 100% no-repeat;
 }
 .text8 {
   display: flex;
@@ -184,13 +184,13 @@
   text-align: start;
 }
 .frame9 {
-  background: url(/let2.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(./let2.jpg) lightgray 0px 0px / 100% 100% no-repeat;
 }
 .frame10 {
-  background: url(/let3.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(./let3.jpg) lightgray 0px 0px / 100% 100% no-repeat;
 }
 .frame11 {
-  background: url(/let4.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(./let4.jpg) lightgray 0px 0px / 100% 100% no-repeat;
 }
 .storecard {
   width: 450px;
@@ -201,7 +201,8 @@
   flex-direction: column;
   padding-left: 30px;
   padding-top: 30px;
-  border-radius: 20px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
 }
 .frame12 {
   display: flex;
@@ -226,7 +227,6 @@
 }
 .text12 {
   display: flex;
-  width: 331.64px;
   height: 34px;
   flex-direction: column;
   justify-content: center;
@@ -247,15 +247,85 @@
   padding-top: 60px;
 }
 .photo4 {
-  background-image: url(/hop1.jpg);
+  background-image: url(./hop1.jpg);
   background-position: center;
   background-size: cover;
   width: 400px;
   height: 500px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
 }
 .text13 {
   width: 197px;
   height: 66px;
   padding-left: 30px;
   padding-top: 53px;
+}
+.photo5 {
+  width: 257px;
+  height: 257px;
+}
+.frame16 {
+  display: flex;
+  padding: 23px 28px 32px 28px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+  gap: 58px;
+  width: 257px;
+}
+.text14 {
+  display: flex;
+  height: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  color: #b64400;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  align-items: start;
+}
+.text15 {
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  height: 61px;
+}
+.text16 {
+  display: flex;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  color: #1d1d1f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  align-items: start;
+}
+.frame17 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 6px;
+}
+.frame18 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+/* Section5 */
+.photo6 {
+  background-image: url(./hol1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
 }
