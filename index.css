@@ -1,6 +1,13 @@
 * {
   margin: 0%;
 }
+.portal {
+  color: #1d1d1f;
+  text-decoration: none;
+}
+.portal2 {
+  text-decoration: none;
+}
 /* Overlay */
 .iconDiv {
   display: flex;
@@ -198,12 +205,8 @@
   }
 
   .n2 {
-    /* display: none; */
     padding-bottom: 373px;
   }
-  /* .n1 {
-    display: none;
-  } */
 }
 /* Link 3 */
 .link3 {
@@ -222,9 +225,7 @@
   color: #000;
   font-size: 18px;
   font-weight: 400;
-  line-height: 32px;
   display: flex;
-  height: 32px;
   flex-direction: column;
   justify-content: center;
   align-self: stretch;
@@ -302,12 +303,18 @@
   .frame8-down {
     display: none;
   }
+  .FRAME {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   .frame8-up {
     display: flex;
   }
   .frame8-down {
+    display: none;
+  }
+  .FRAME {
     display: none;
   }
 }
@@ -321,17 +328,31 @@
   .link3 {
     background: url(/giftmagic.jpg) lightgray 0px 0px / 100% 100% no-repeat;
   }
-  .img1 {
-    display: none;
-  }
   .text9 {
     display: none;
   }
-  .frame6 {
+  #frame6_0 {
     display: none;
   }
   .link7 {
     background: url(/link3.jpg) lightgray 0px 0px / 100% 100% no-repeat;
+  }
+  .FRAME {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  .overlay {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    height: 44px;
+    background: rgba(245, 245, 247, 0.8);
+    align-items: center;
+    width: 1024px;
   }
 }
 .frame8none {
@@ -339,7 +360,6 @@
 }
 .frame8flex {
   display: flex;
-  /* padding-top: 299px; */
 }
 @media (min-width: 1024px) {
   .link4 {
@@ -447,9 +467,6 @@
 .n2 {
   padding-bottom: 373px;
 }
-/* .n1 {
-  padding-bottom: 2px;
-} */
 @media (min-width: 1024px) {
   .link8 {
     background: url(/link8web.jpg) lightgray 0px 0px / 100% 100% no-repeat;
@@ -646,7 +663,6 @@ img {
     overflow: scroll;
   }
   .link10lap {
-    /* display: block; */
     width: fit-content;
     display: flex;
     flex-direction: row;
