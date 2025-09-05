@@ -470,7 +470,6 @@
   background-image: url(/special5.jpg);
 }
 .frame22 {
-  display: flex;
   gap: 8px;
   border-radius: 999px;
   border: 1px solid #1d1d1f;
@@ -478,6 +477,12 @@
   padding: 10px 12px;
   align-items: center;
   width: fit-content;
+}
+.frame22:hover {
+  background-color: #1d1d1f;
+}
+.frame22:hover > .text20 {
+  color: white;
 }
 .text20 {
   color: #1d1d1f;
